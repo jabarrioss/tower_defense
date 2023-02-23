@@ -1,7 +1,7 @@
 extends PathFollow2D
 
 var speed = 150
-var hp = 1000
+var hp = 60
 
 onready var health_bar = get_node("HealthBar")
 onready var impact_area = get_node("Impact")
